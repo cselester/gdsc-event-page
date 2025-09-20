@@ -1,0 +1,12 @@
+.countdown {
+  text-align: center;
+  padding: 40px;
+  background: #f1f1f1;
+}
+.timer {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

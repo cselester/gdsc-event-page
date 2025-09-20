@@ -1,0 +1,33 @@
+.register {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.register input,
+.register select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.register button {
+  background: #ea4335;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register button:hover {
+  background: #c5221f;
+}
+.success {
+  font-size: 1.2rem;
+  color: green;
+}

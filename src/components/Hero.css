@@ -1,0 +1,23 @@
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  color: #ea4335;
+}
+.hero p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+.cta {
+  background: #34a853;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cta:hover {
+  background: #0f9d58;
+}

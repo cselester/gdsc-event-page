@@ -1,0 +1,55 @@
+.schedule {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.timeline-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+  overflow-x: auto;
+  padding-bottom: 40px;
+}
+
+/* Horizontal line behind the dots */
+.timeline-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #ccc;
+  z-index: 0; /* behind the dots */
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+  position: relative;
+  z-index: 1; /* above the line */
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background: #4285f4;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.timeline-time {
+  font-weight: bold;
+  color: #ea4335;
+}
+
+.timeline-title {
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
